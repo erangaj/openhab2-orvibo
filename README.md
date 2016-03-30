@@ -1,6 +1,6 @@
 #Orvibo S20 / S10 Binding for OpenHAB2
 
-This is an OpenHAB2 binding to integrate [Orvibo S20 Smart Sockets](http://www.orvibo.com/product_en.html).
+This is an OpenHAB2 binding for integrating [Orvibo S20 Smart Sockets](http://www.orvibo.com/product_en.html).
 The binding is written in pure Java and has been tested for S20 smart sockets, but may work with S10 sockets as well.
 
 Currently, this binding is NOT compatible with Orvibo Coco Smart WiFi Power Strip.
