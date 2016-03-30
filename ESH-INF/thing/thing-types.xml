@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thing:thing-descriptions bindingId="orvibo"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:thing="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0"
+        xsi:schemaLocation="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0 http://eclipse.org/smarthome/schemas/thing-description-1.0.0.xsd">
+
+    <!-- Sample Thing Type -->
+    <thing-type id="socket">
+        <label>Orvibo Smart Socket</label>
+        <description>Orvibo S20 / S10 Smart Socket</description>
+
+        <channels>
+            <channel id="state" typeId="state"/>
+        </channels>
+
+        <config-description>
+            <parameter name="mac" type="text">
+                <label>MAC Address</label>
+                <description>The MAC address of the Orvibo Device (in lowercase, without any special characters such as ':' or '-')</description>
+                <required>true</required>
+            </parameter>
+        </config-description>
+
+    </thing-type>
+
+    <channel-type id="state">
+        <item-type>Switch</item-type>
+        <label>Switch</label>
+        <description>Turns the power on or off</description>
+        <category>Switch</category>
+    </channel-type>
+
+</thing:thing-descriptions>
