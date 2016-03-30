@@ -8,11 +8,17 @@ Currently, this binding is NOT compatible with Orvibo Coco Smart WiFi Power Stri
 ## Installation
 Steps to add an Orvibo device to your OpenHab2:
 1. Setup your Orvibo device as described in the manual and test it using the Orbivo app. Make sure your Orvibo device and the OpenHAB2 are conected to the same local network.
+
 2. Download the [binding JAR file](https://github.com/erangaj/openhab2-orvibo/blob/erangaj-bin-v1/org.openhab.binding.orvibo-1.0.0-SNAPSHOT.jar?raw=true) to the 'addons' directory of OpenHAB2.
+
 3. Define a new 'Switch' [item](https://github.com/openhab/openhab/wiki/Explanation-of-items) for the Orvibo socket.
+
 4. Start OpenHAB2 and navigate to the Admin UI (Paper UI).
+
 5. Goto Inbox, select 'Search for Things', select 'Orvibo Binding' and select the discovered 'Orvibo Smart Socket'.
+
 6. Update the name if necessory and click 'Add as Thing'.
+
 7. Goto Configuration -> Things and select the newly added Orvibo device. Link the item created in above step #3 with the device.
 
 Notes:
