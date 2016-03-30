@@ -7,6 +7,7 @@ Currently, this binding is NOT compatible with Orvibo Coco Smart WiFi Power Stri
 
 ## Installation
 Steps to add an Orvibo device to your OpenHab2:
+
 1. Setup your Orvibo device as described in the manual and test it using the Orbivo app. Make sure your Orvibo device and the OpenHAB2 are conected to the same local network.
 
 2. Download the [binding JAR file](https://github.com/erangaj/openhab2-orvibo/blob/erangaj-bin-v1/org.openhab.binding.orvibo-1.0.0-SNAPSHOT.jar?raw=true) to the 'addons' directory of OpenHAB2.
